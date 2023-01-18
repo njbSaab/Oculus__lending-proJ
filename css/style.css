@@ -62,7 +62,7 @@ body{
 }
 .menu-link{
   transition: all .7s ease-in-out;
-  padding: 5px;
+  padding: 7px;
   border-radius: 50%;
 }
 .menu-link:hover{
@@ -78,11 +78,11 @@ body{
   position: relative;
 }
 svg{
-  fill: #000;
+  fill: #5C5C5E;
   transition: all .7s ease-in-out;
 }
 svg:hover{
-  fill: red;
+  fill: #000;
 } 
 .bag__link:hover{
   background: #e6e6ec;
@@ -109,4 +109,75 @@ svg:hover{
   right: 0;
   border-radius: 50px;
   z-index: 0;
+}
+
+
+/*? main_______________________*/
+.section-main{
+  background-image: url(../images/bg.png);
+  min-height: calc(100vh - 81px);
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.main{
+  padding-bottom: 50px;
+}
+.main-text__larg{
+  padding-top: 230px;
+  font-size: 96px;
+  line-height: 110px;
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+.main-text__medium{
+  font-size: 36px;
+  line-height: 40px;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+.text-small{
+  font-size: 13px;
+  line-height: 15px;
+  font-weight: 400;
+}
+/*   background: linear-gradient(180deg, #BC10D8 0%,
+  rgba(80, 0, 250, 0.93) 100%); */
+
+.buy-btn{
+  display: flex;
+  padding: 1px;
+  background: linear-gradient(180deg, #BC10D8 0%,
+  rgba(80, 0, 250, 0.93) 100%);
+  cursor: pointer;
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 700;
+  border: 1px;
+}
+.buy-text{
+  padding: 20px 110px;
+  color: #e6e6ec;
+  transition: all .5s ease-in;
+}
+.buy-text:hover{
+  background: linear-gradient(180deg, #BC10D8  100%,
+  rgba(80, 0, 250, 0.93) 0%);
+  font-size: 20px;
+  color: #000;
+}
+.buy-price{
+  background: #e6e6ec;
+  padding: 20px 105px;
+  color: #5C5C5E;
+  transition: all .5s ease-in;
+}
+.buy-price:hover{
+  background: linear-gradient(180deg, #BC10D8 0%,
+  rgba(80, 0, 250, 0.93) 100%);
+  color: #e6e6ec;
+  font-size: 20px;
+}
+.last-text{
+  margin-top: 10px;
 }
